@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import Quizzes from './Quizzes';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -42,7 +43,7 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/Quiz' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/Quizzes' className='nav-links' onClick={Quizzes}>
                 Daily Quiz!
               </Link>
             </li>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Quiz from './components/Quiz';
+import Quizzes from './components/Quizzes';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           
-        <Route path='/Quiz' component={Quiz} />
+          <Route path='/Quizzes' component={Quizzes} />
           {/* <Route path='/' exact component={Home} />
           <Route path='/Quizzes' component={Quizzes} />
           <Route path='/Achievements' component={Achievements} />
