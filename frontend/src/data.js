@@ -1,12 +1,12 @@
 const data = [
   {
-    question: "What does CSS stand for?",
+    question: "X + 2Y = 10,  2X + 2Y = 4",
     incorrectAnswers: [
-      "Computer Style Sheets",
-      "Creative Style Sheets",
-      "Colorful Style Sheets",
+      "X = -4,  Y = -8",
+      "X = -4,  Y = -10",
+      "X = -20,  Y = 0",
     ],
-    correctAnswer: "Cascading Style Sheets",
+    correctAnswer: "X = -6,  Y = 8",
   },
 
   {
