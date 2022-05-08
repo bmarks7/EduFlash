@@ -3,10 +3,6 @@ We were inspired by our own experiences as students taking online classes. Compa
 
 We decided to use this hackathon as an opportunity to build an application that would make online learning more fun. We also hoped to make online learning more organized, with features to keep track of course material and assess students’ knowledge through easily accessible quizzes.
 
-Ya that’s fine sure
-Yk we could openai this whole thing lol
-https://beta.openai.com/playground
-
 ## What it does
 **EduFlash** is a platform for teachers and students to supplement virtual/hybrid learning using gamification and a unique point system.
 
