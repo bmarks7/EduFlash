@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>EduFlash</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&family=Work+Sans&display=swap');
+
+  *{
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden
+  }
+
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-size: 30px
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  min-width: 14vw;
+  border-radius: 5px;
+  color: #F26419;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  text-decoration: underline
+}
+
+.active {
+  background-color: #FCEEE6;
+}
+
+ #wee{
+display: block;
+margin: 0 auto;
+   overflow: hidden;
+   float: clear;
+   min-width: 5vw
+}  
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1{
+  color: #33658A;
+  font-size: 100px;
+  font-family: 'Vollkorn', serif;
+  text-align: left;
+  margin: 0
+}
+
+  .fitem1{
+  display: relative;
+  text-align: left;
+    width: 40vw;
+    margin-left: 150px
+}
+
+    .fitem2{
+  display: relative;
+  text-align: left;
+    width: 40vw;
+}
+
+      .fitem3{
+  display: relative;
+  text-align: left;
+    width: 40vw;
+        background-color: #FCEEE6;
+        color: #F26419;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Work Sans', sans-serif;
+        padding: 30px; padding-top: 65px;
+        font-size: 30px; width: 20vw;
+}
+
+.fitem4{
+    display: relative;
+  text-align: left;
+    width: 40vw;
+        background-color: #FCEEE6;
+        color: #F26419;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Work Sans', sans-serif;
+        padding: 30px; 
+        font-size: 30px; width: 50vw;
+}
+  
+  .fitline1{
+    display: relative;
+    width: 40vw;
+  }
+
+  p{
+    color: #5C8398;
+    font-size: 43px;
+    margin: 0
+  }
+
+  .fitline1 p{
+    font-family: 'Vollkorn', serif;
+    font-size: 70px
+  }
+
+.ybutton {
+  font-size: 25px;
+  background: #FFEFD4;
+  border: none;
+  color: #33658A;
+  border-radius: 2em;
+  padding: .6em 1.5em;
+  overflow: hidden;
+  margin-top: 20px;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 0 1em rgba(#FFEFD4, .2);
+  transition: transform .1s cubic-bezier(.5, 0, .5, 1),
+    box-shadow .2s;
+  
+  &:hover {
+    box-shadow: 0 0 2em rgba(#FFEFD4, .3);
+  }
+
+  outline: none;
+
+  &:active {
+    transform: scale(0.8) translateY(10%);
+    transition-timing-function: cubic-bezier(.5, 0, .5, 1);
+  }
+}
+
+  .prof{
+  background: #FFCD73;
+border-radius: 50px;
+    display: block;
+    float: left
+  }
+
+  .bubble{
+    display: block;
+    border-radius: 30px;
+    background-color: #6B9FBC;
+    color: white;
+    width: 80vw;
+    margin: 0 auto; margin-top: 20px;
+    max-height: 330px; overflow: hidden
+  }
+
+  .bubble2{
+    display: block;
+    border-radius: 30px;
+    background-color: #FFF9ED;
+    color: black;
+    width: 80vw;
+    margin: 20px auto;
+    overflow: hidden;
+    min-height: 220px
+  }
+
+  .bubble2 h2{
+    font-family: 'Vollkorn', serif;
+    color: #C7A059;
+    text-align: center;
+    font-size: 40px
+  }
+
+  .bubble2 p{
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif; font-size: 20px
+  }
+  
+</style>
+</head>
+<body>
+<div style = "height: 100vh; background-color: transparent">
+<ul>
+  
+  <li><a href="content.html"  class = "active">Class</a></li>
+  <li><a href="quizzes.html">Quizzes</a></li>
+  <li><a href="login.html">Login</a></li>
+
+  <li><a href ="index1.html" id ="wee"> <img src = "https://media.discordapp.net/attachments/844417162785456128/972639939365855242/home.png"></a></li>
+  <li style="float:left; min-width: none"><a  href="#about">EduFlash</a></li>
+</ul>
+
+  <div class = "fitline1 prof" style = "height: 110px; overflow: hidden; z-index: 4; max-width: 30vw; margin-left: 72vw"> <img src = "https://media.discordapp.net/attachments/844417162785456128/972662067972702269/unknown.png" style = "border-radius: 50%; height: 100px; margin: 5px auto; margin-left: 10px; float: left"> <br/><br/><span style = "font-weight: bold; padding: 30px; font-size: 25px; padding-left: 60px; ">Jane Doe</span><span style = "font-weight: bold; padding: 30px; padding-left: 80px; font-size: 25px;">78 pts</span></div>
+
+  <br/>
+<div class ="fitline1" style = "text-align: center; margin: 0 auto; margin-top: 27px "><p>My Class Content</p></div> 
+
+  <section class="flex-container" style = "width: 80vw; margin: 0 auto; margin-bottom: 20px; margin-top: 20px">
+<div class = "fitem3">
+Algebra
+</div> 
+  <div class = "fitem4" style = "text-align: left">
+This class will cover fundamental algebraic skills such as: operations, algebraic expressions, solving equations, graphing, linear, quadratic, and exponential functions.
+</div> 
+</section>
+
+  <div class = "bubble2">
+  <h2>Elimination Method</h2>
+    <p>Great example of how to use the elimination method to solve linear equations!</p>
+    <p><a href = "https://www.youtube.com/watch?v=XOJgzW4P7T8" style = "text-decoration: underline; color: black">https://www.youtube.com/watch?v=XOJgzW4P7T8</a></p>
+  </div>
+
+
+  <div class = "bubble2">
+  <h2>Ch. 18 Class Notes</h2>
+    <p>In mathematics, an inequality is a relation which makes a non-equal comparison between two numbers or other mathematical expressions. </p><p>It is used most often to compare two numbers on the number line by their size.</p><br/>
+
+<p>< less than</p>
+<p>> greater than</p>
+<p>= equal to</p>
+
+<br/>
+<p>ex: What is the solution of inequality 2x < x − 4 ≤ 3x + 8?</p>
+
+<p style = "margin-bottom: 25px">−6 ≤ x < − 4</p>
+
+  </div>  
+  
+</div>
+</body>
+</html>
