@@ -27,7 +27,9 @@ function Navbar() {
   }, []);
 
   window.addEventListener('resize', showButton);
-  
+  const divStyle = {
+    color: 'blue'
+  };
   return (
     <>
       <nav className='navbar'>
@@ -56,14 +58,14 @@ function Navbar() {
               </Link>
             </li>
 
-            <li>
-              <Link to='/Sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+            {/* <li> */}
+              {/* <Link to='/Sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                 Sign Up
-              </Link>
-            </li>
-
-            <li>
-              <LoginButton />
+              </Link> */}
+            {/* </li> */}
+            
+            <li className='nav-item'>
+              <LoginButton className='nav-links-mobile' buttonStyle='btn--outline' />
             </li>
 
             <li>
