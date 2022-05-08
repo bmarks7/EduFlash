@@ -6,7 +6,7 @@ import './App.css';
 import {useAuth0} from '@auth0/auth0-react';
 
 function App() {
-  const {isLoading} = useAuth0()
+  const {isLoading, isAuthenticated} = useAuth0()
 
   if (isLoading) return <div>Loading...</div>
 
@@ -15,8 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          
-          <Route path='/Quizzes' component={Quizzes} />
+          <Route path='/Quizzes'  component={Quizzes}/>
           {/* <Route path='/' exact component={Home} />
           <Route path='/Quizzes' component={Quizzes} />
           <Route path='/Achievements' component={Achievements} />
