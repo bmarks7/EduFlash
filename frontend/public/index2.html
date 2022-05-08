@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>EduFlash</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&family=Work+Sans&display=swap');
+
+  *{
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden
+  }
+
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-size: 30px
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  min-width: 14vw;
+  border-radius: 5px;
+  color: #F26419;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  text-decoration: underline
+}
+
+.active {
+  background-color: #FCEEE6;
+}
+
+ #wee{
+display: block;
+margin: 0 auto;
+   overflow: hidden;
+   float: clear;
+   min-width: 5vw
+}  
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1{
+  color: #33658A;
+  font-size: 100px;
+  font-family: 'Vollkorn', serif;
+  text-align: left;
+  margin: 0
+}
+
+  .fitem1{
+  display: relative;
+  text-align: left;
+    width: 40vw;
+    margin-left: 150px
+}
+
+    .fitem2{
+  display: relative;
+  text-align: left;
+    width: 40vw;
+}
+
+      .fitem3{
+  display: relative;
+  text-align: left;
+    width: 40vw;
+        background-color: #FCEEE6;
+        color: #F26419;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Work Sans', sans-serif;
+        padding: 30px; padding-top: 65px;
+        font-size: 30px; width: 20vw;
+}
+
+.fitem4{
+    display: relative;
+  text-align: left;
+    width: 40vw;
+        background-color: #FCEEE6;
+        color: #F26419;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Work Sans', sans-serif;
+        padding: 30px; 
+        font-size: 30px; width: 50vw;
+}
+  
+  .fitline1{
+    display: relative;
+    width: 40vw;
+  }
+
+  p{
+    color: #5C8398;
+    font-size: 43px;
+    margin: 0
+  }
+
+  form{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Work Sans', sans-serif;
+    color: #33658A;
+  }
+
+  form input, textarea{
+    font-size: 20px; border-radius: 7px; padding: 5px
+  }
+
+  .fitline1 p{
+    font-family: 'Vollkorn', serif;
+    font-size: 70px
+  }
+
+.ybutton {
+  font-size: 25px;
+  background: #FFEFD4;
+  border: none;
+  color: #33658A;
+  border-radius: 2em;
+  padding: .6em 1.5em;
+  overflow: hidden;
+  margin-top: 20px;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 0 1em rgba(#FFEFD4, .2);
+  transition: transform .1s cubic-bezier(.5, 0, .5, 1),
+    box-shadow .2s;
+  
+  &:hover {
+    box-shadow: 0 0 2em rgba(#FFEFD4, .3);
+  }
+
+  outline: none;
+
+  &:active {
+    transform: scale(0.8) translateY(10%);
+    transition-timing-function: cubic-bezier(.5, 0, .5, 1);
+  }
+}
+
+  .prof{
+  background: #FFCD73;
+border-radius: 50px;
+    display: block;
+    float: left
+  }
+
+  .bubble{
+    display: block;
+    border-radius: 30px;
+    background-color: #6B9FBC;
+    color: white;
+    width: 80vw;
+    margin: 0 auto; margin-top: 20px;
+    max-height: 330px; overflow: hidden
+  }
+  
+</style>
+</head>
+<body>
+<div style = "height: 100vh; background-color: transparent">
+<ul>
+  
+  <li><a href="content2.html">Class</a></li>
+  <li><a href="quizzes2.html">Quizzes</a></li>
+  <li><a href="login2.html">Login</a></li>
+
+  <li><a href ="index2.html" id ="wee" class = "active"> <img src = "https://media.discordapp.net/attachments/844417162785456128/972639939365855242/home.png"></a></li>
+  <li style="float:left; min-width: none"><a  href="#about">EduFlash</a></li>
+</ul>
+
+<section class="flex-container">
+  <div class="fitem1">
+    <h1 style = "margin-top: 20vh">EduFlash</h1>
+    <p>Making education more fun for everyone!</p>
+    <button class="ybutton">Get Started</button>
+  </div>
+  <div class="fitem2">
+    <img src = "https://media.discordapp.net/attachments/844417162785456128/972663556413751346/38fed7d2e80ab91f.jpg" alt = "backpack" style = "width: 100%; z-index: 5">
+  </div>
+</section>
+<br/></div>
+<section class="flex-container" style = "margin: 0 auto; width: 80%; margin-bottom: 50px;">
+<div style = "text-align: right; margin-top: 27px; max-width: 500px; font-family: Vollkorn"><p style = "float: left; font-family: 'Vollkorn'; font-size: 43px;">My Class Info</p> <img src = "https://media.discordapp.net/attachments/844417162785456128/972678726716383292/pencil.png" alt = "edit" id = "editcinfo" style = "padding-left: 12px"></div>  
+</section> 
+
+<section class="flex-container" style = "width: 80vw; margin: 0 auto; margin-bottom: 20px">
+<div class = "fitem3">
+Algebra
+</div> 
+  <div class = "fitem4" style = "text-align: left">
+This class will cover fundamental algebraic skills such as: operations, algebraic expressions, solving equations, graphing, linear, quadratic, and exponential functions.
+</div> 
+</section>
+
+<div style = "text-align: center; margin-top: 47px"><p style = "float: clear; font-family: 'Vollkorn'; text-align: center;">Announcements</p></div>
+<br/>
+  <div class="container">
+    <form>
+      <label for="pname" style = "font-family: 'Work Sans', sans-serif;">Title:</label>
+  <input type="text" id="pname" name="pname"><br/>
+<br/>
+        <textarea class="form-control status-box" rows="5" style = "width: 500px" placeholder="Enter your comment here..."></textarea>
+
+    </form>
+
+<br/>
+ <input type="submit" value="Post announcement" class = "ybutton" style = "margin: 0 auto; display: block">
+    <section class="posts">
+    </section>
+  
+  <div class = "bubble" style = "padding-left: 50px; margin-top: 50px">
+  
+        <img src = "https://media.discordapp.net/attachments/844417162785456128/972676150503563354/image.jpg" alt = "default" style = "float: right;">
+    <div>
+    <h2 style = "font-size: 50px">✉︎ Office hours changed</h2>
+    <h2 style = "font-weight: normal">Hi class!<br/><br/> Office hours are changing from 1-2 pm to 2:30-3:30 pm this month!</h2>
+    </div>
+    
+  </div>
+
+
+    <div class = "bubble" style = "padding-left: 50px">
+        <img src = "https://media.discordapp.net/attachments/844417162785456128/972676150503563354/image.jpg" alt = "default" style = "float: right;">
+    <div>
+    <h2 style = "font-size: 50px">✉︎ Extra credit opportunity</h2>
+    <h2 style = "font-weight: normal">Hi algebros! <br/><br/> See what I did there?
+I’ll be giving out 5 extra credit points to students who earn an attendance award by the end of the month!</h2>
+    </div>
+    
+  </div>
+  
+  
+  <div>
+    
+  </div>
+
+    
+</html>
