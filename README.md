@@ -37,3 +37,7 @@ We learned how to use Auth0, which turned out to be crazy easy to implement.
 In the future, we want to add an Achievements feature for **EduFlash** to mark milestones in the students’ point progress (ex: 100pts, 200pts, etc). We feel that this would emphasize the gamification aspect of our application even more.
 
 Also, we’d like to continue to improve **EduFlash’s** UI, as outlined in the Figma prototype.
+
+
+
+_Icons from https://www.flaticon.com/authors/pixel-perfect & https://www.flaticon.com/authors/freepik_
