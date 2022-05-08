@@ -22,7 +22,7 @@ Using this kind of point system, rather than a traditional grade, motivates stud
 ## How we built it
 We initially created a Figma prototype to design our project’s UI and decide what pages we needed to create.
 
-The **EduFlash** application itself was built using ReactJS [+ Brandon’s backend languages].
+The **EduFlash** application itself was built using ReactJS.
 
 We also incorporated Auth0 for logging into **EduFlash** and the Twilio API for SMS capabilities.
 
