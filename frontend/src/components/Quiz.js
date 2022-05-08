@@ -2,12 +2,14 @@ import { useContext } from "react";
 import Question from "./Question";
 import { QuizContext } from "../contexts/quiz";
 import "./Quiz.css";
+import { Auth0Context } from "@auth0/auth0-react";
 
 const Quiz = () => {
   const [quizState, dispatch] = useContext(QuizContext);
 
   return (
     <div className="quiz">
+      
       {quizState.showResults && (
         <div className="results">
           <div className="congratulations">Congratulations!</div>
@@ -26,6 +28,7 @@ const Quiz = () => {
         </div>
       )}
       {!quizState.showResults && (
+        
         <div>
           <div className="score">
             Question {quizState.currentQuestionIndex + 1}/

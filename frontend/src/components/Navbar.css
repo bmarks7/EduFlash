@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(1, 97, 9) 0%, rgb(0, 110, 18) 100%);
+  background: linear-gradient(90deg, rgb(240, 159, 10) 0%, rgb(212, 157, 4) 100%);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -27,6 +27,36 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+}
+
+.navbar-login {
+  background: linear-gradient(90deg, rgb(240, 159, 10) 0%, rgb(212, 157, 4) 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 15px;
+  z-index: 999;
+  max-width: 1500px;
+
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+  
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  
 }
 
 .fa-typo3 {

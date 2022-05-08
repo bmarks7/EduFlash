@@ -35,7 +35,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            EduMind!
+            EduFlash!
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -64,19 +64,18 @@ function Navbar() {
               </Link> */}
             {/* </li> */}
             
-            <li className='nav-item'>
+            <li>
               <LoginButton className='nav-links-mobile' buttonStyle='btn--outline' />
             </li>
 
             <li>
-              <LogoutButton />
+              <LogoutButton className='nav-links-mobile' buttonStyle='btn--outline' />
             </li>
 
             <li>
               <Profile />
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
     </>
